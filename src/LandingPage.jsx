@@ -12,6 +12,7 @@ import ProductBlog from "./Components/ProductBlog";
 import Testimonial from "./Components/Testimonial";
 import CallToAction from "./Components/CallToAction";
 import Footer from "./Components/Footer";
+import LandingProductList from './Components/LandingProductList';
 
 
 
@@ -21,7 +22,7 @@ export default function LandingPage() {
       <NavBar />
       <SubNav />
       <HeroSection />
-      {/* <Products /> */}
+      <LandingProductList />
       <ProductServices />
       <ProductBlog />
       <Testimonial />

@@ -10,6 +10,7 @@ import Navigation from "./Components/Navigation";
 import ShopHeroSection from "./Components/ShopHeroSection";
 import ProductDescription from "./Components/ProductDescription";
 import Sponsors from "./Components/Sponsors";
+import ShopProductsList from "./Components/ShopProductsList";
 
 
 
@@ -21,6 +22,8 @@ export default function ShopPage() {
       <Navigation />
       <ShopHeroSection />
       <ProductDescription />
+      {/* API LINK PAGE!!! */}
+      <ShopProductsList />
       <Sponsors />
       <Footer />
     </div>

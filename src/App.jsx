@@ -38,7 +38,6 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import NavBar from "./Components/NavBar";
 import SubNav from "./Components/SubNav";
 import HeroSection from "./Components/HeroSection";
-// import Products from ".src/Products"
 import ProductServices from "./Components/ProductServices";
 import ProductBlog from "./Components/ProductBlog";
 import Testimonial from "./Components/Testimonial";
@@ -48,13 +47,9 @@ import Navigation from "./Components/Navigation";
 import ShopHeroSection from "./Components/ShopHeroSection";
 import ProductDescription from "./Components/ProductDescription";
 import Sponsors from "./Components/Sponsors";
-
-
-
-
-
-
-
+import LandingPage from "./LandingPage";
+import ShopPage from "./ShopPage";
+import ShopCart from "./ShopCart";
 
 
 function Products() {
@@ -128,6 +123,9 @@ function Products() {
       <CallToAction /> */}
       <Sponsors />
       <Footer />
+      {/* <LandingPage />
+      <ShopPage /> */}
+      <ShopCart />
     </>
   );
 }

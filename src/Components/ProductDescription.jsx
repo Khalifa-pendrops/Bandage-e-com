@@ -8,13 +8,13 @@ export default function ProductDescription() {
   return (
     <div className="d-container">
       <div className="description-navigation">
-        <Link to="/description">
-          <p>Descrption</p>
+        <Link className="d-link" to="/description">
+          <p>Description</p>
         </Link>
-        <Link to="/information">
+        <Link className="d-link" to="/information">
           <p>Additional Information</p>
         </Link>
-        <Link to="/review">
+        <Link className="d-link" to="/review">
           <p>Review (0)</p>
         </Link>
       </div>
