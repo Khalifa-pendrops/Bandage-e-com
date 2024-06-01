@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -13,6 +13,14 @@ import social4 from "../images/social4.svg";
 
 
 export default function NavBar() {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleToggle = () => {
+    setIsActive(!isActive);
+  };
+
+
+
   return (
     <div>
       <div className=" nav-container">
@@ -25,7 +33,9 @@ export default function NavBar() {
             <FontAwesomeIcon icon={faEnvelope} />
             <p>michelle.rivera@example.com</p>
           </div>
-          <p className="nav-follow">Follow Us and get a chance to win 80% off</p>
+          <p className="nav-follow">
+            Follow Us and get a chance to win 80% off
+          </p>
           <div>
             <p className="nav-socials">
               Follow Us :
@@ -44,6 +54,23 @@ export default function NavBar() {
                 </Link>
               </span>
             </p>
+          </div>
+
+          <div
+            className={`hamburger ${isActive ? "active" : ""}`}
+            onClick={handleToggle}
+          >
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div className={`nav-items ${isActive ? "active" : ""}`}>
+            <div className="nav-links">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Contact</a>
+            </div>
           </div>
         </nav>
       </div>

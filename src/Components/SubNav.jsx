@@ -12,8 +12,8 @@ import {
 export default function SubNav() {
   return (
     <div>
-      <div className="nav-items">
-        <h2>Bandage</h2>
+      <div className="nav-items nav-items-responsive">
+        <h2 className="subnav-header">Bandage</h2>
         <nav className="sub-nav-links">
           <Link className="no-decoration-links" to="/home">
             <li>Home</li>
@@ -44,13 +44,13 @@ export default function SubNav() {
               <p className="subnav-login-link">Login / Register</p>
             </Link>
           </div>
-          <FontAwesomeIcon icon={faMagnifyingGlass} />
+          <FontAwesomeIcon className="subnav-search" icon={faMagnifyingGlass} />
           <div className="cart-favourite">
-            <FontAwesomeIcon icon={faCartShopping} />
-            <p>1</p>
+            <FontAwesomeIcon className="subnav-cart" icon={faCartShopping} />
+            <p className="subnav-item-number">1</p>
           </div>
           <div className="cart-favourite">
-            <FontAwesomeIcon icon={faHeart} />
+            <FontAwesomeIcon className="subnav-heart" icon={faHeart} />
             <p>1</p>
           </div>
         </div>
