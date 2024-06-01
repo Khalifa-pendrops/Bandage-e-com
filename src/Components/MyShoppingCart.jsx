@@ -147,28 +147,27 @@ export default function MyShoppingCart() {
       <div className="order-summary">
         <div className="summary-head">
           <h2>Order Summary</h2>
-          <p>4 Items</p>
+          <p className="number-of-items">4 Items</p>
         </div>
 
         <div className="summary-head">
-          <h5>Dekivery Charges</h5>
-          <p>Add your delivery address to checkout to see delivery charges.</p>
+          <h5>Delivery Charges</h5>
+          <p className="order-mid-text">Add your delivery address to checkout to see delivery charges.</p>
         </div>
 
         <div className="summary-head">
           <h5>Subtotal</h5>
-          <p>
+          <p className="subtotal">
             &#8358;<span>26,500</span>
           </p>
         </div>
 
         <div className="summary-head">
           <h5>Total</h5>
-          <p>
-            {" "}
-            <p>
+         
+            <p className="total">
               &#8358;<span>26,500</span>
-            </p>
+            
           </p>
         </div>
 

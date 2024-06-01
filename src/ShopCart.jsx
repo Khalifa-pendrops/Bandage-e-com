@@ -7,6 +7,7 @@ import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import CartNavigation from "./Components/CartNavigation";
 import MyShoppingCart from "./Components/MyShoppingCart";
+import ShopCartList from "./Components/ShopCartList";
 
 
 export default function ShopCart() {
@@ -14,6 +15,7 @@ export default function ShopCart() {
         <NavBar />
         <CartNavigation />
         <MyShoppingCart />
+        <ShopCartList />
         <Footer />
   </div>;
 }

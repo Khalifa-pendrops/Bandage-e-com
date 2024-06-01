@@ -92,13 +92,16 @@ function Products() {
   return (
     <>
       {/* ADDED ALL COMPONENTS HERE, REMEBER TO ROUTE TO FIX U!!! */}
-      <NavBar />
-      <SubNav />
+      {/* <NavBar /> */}
+      {/* <SubNav /> */}
       {/* <HeroSection /> */}
-      <Navigation />
-      <ShopHeroSection />
-      <ProductDescription />
-      <div className="App">
+      {/* <Navigation /> */}
+      {/* <ShopHeroSection /> */}
+      {/* <ProductDescription /> */}
+
+
+
+      {/* <div className="App">
         <h4>Featured Products</h4>
         <h1>BESTSELLER PRODUCTS</h1>
         <p>Problems trying to resolve the conflict between</p>
@@ -111,21 +114,22 @@ function Products() {
             </div>
           ))}
         </div>
-        {/* ADD A FUNCTION TO THIS BUTTON! */}
         <button className="product-btn" type="button">
           LOAD MORE PRODUCTS
         </button>
-        {/* Add more UI elements to display other data */}
-      </div>
+      </div> */}
+
+
+
       {/* <ProductServices />
       <ProductBlog />
       <Testimonial />
       <CallToAction /> */}
-      <Sponsors />
-      <Footer />
-      {/* <LandingPage />
-      <ShopPage /> */}
-      <ShopCart />
+      {/* <Sponsors /> */}
+      {/* <Footer /> */}
+      <LandingPage />
+      {/* <ShopPage />
+      <ShopCart /> */}
     </>
   );
 }
