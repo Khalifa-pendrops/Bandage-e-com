@@ -1,23 +1,3 @@
-// import React from 'react'
-// import './App.css'
-// import { Routes, Route, Link } from "react-router-dom";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faPhone } from "@fortawesome/free-solid-svg-icons";
-// import LandingPage from "./LandingPage";
-// import ShopPage from './ShopPage';
-
-// function App() {
-
-//   return (
-//     <>
-//       <LandingPage />
-//       <ShopPage />
-//     </>
-//   )
-// }
-
-// export default App
-
 import React from "react";
 import {
   useGetProductsQuery,
@@ -35,18 +15,6 @@ import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import NavBar from "./Components/NavBar";
-import SubNav from "./Components/SubNav";
-import HeroSection from "./Components/HeroSection";
-import ProductServices from "./Components/ProductServices";
-import ProductBlog from "./Components/ProductBlog";
-import Testimonial from "./Components/Testimonial";
-import CallToAction from "./Components/CallToAction";
-import Footer from "./Components/Footer";
-import Navigation from "./Components/Navigation";
-import ShopHeroSection from "./Components/ShopHeroSection";
-import ProductDescription from "./Components/ProductDescription";
-import Sponsors from "./Components/Sponsors";
 import LandingPage from "./LandingPage";
 import ShopPage from "./ShopPage";
 import ShopCart from "./ShopCart";
@@ -91,45 +59,9 @@ function Products() {
 
   return (
     <>
-      {/* ADDED ALL COMPONENTS HERE, REMEBER TO ROUTE TO FIX U!!! */}
-      {/* <NavBar /> */}
-      {/* <SubNav /> */}
-      {/* <HeroSection /> */}
-      {/* <Navigation /> */}
-      {/* <ShopHeroSection /> */}
-      {/* <ProductDescription /> */}
-
-
-
-      {/* <div className="App">
-        <h4>Featured Products</h4>
-        <h1>BESTSELLER PRODUCTS</h1>
-        <p>Problems trying to resolve the conflict between</p>
-        <div className="products">
-          {products?.products.map((product) => (
-            <div key={product.id} className="product">
-              <img src={product.thumbnail} alt={product.title} />
-              <h2>{product.title}</h2>
-              <p>{product.description}</p>
-            </div>
-          ))}
-        </div>
-        <button className="product-btn" type="button">
-          LOAD MORE PRODUCTS
-        </button>
-      </div> */}
-
-
-
-      {/* <ProductServices />
-      <ProductBlog />
-      <Testimonial />
-      <CallToAction /> */}
-      {/* <Sponsors /> */}
-      {/* <Footer /> */}
       <LandingPage />
-      {/* <ShopPage />
-      <ShopCart /> */}
+      <ShopPage />
+      <ShopCart />
     </>
   );
 }

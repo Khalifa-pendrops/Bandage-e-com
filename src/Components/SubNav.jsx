@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,9 +10,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function SubNav() {
+    const [isActive, setIsActive] = useState(false);
+
+    const handleToggle = () => {
+      setIsActive(!isActive);
+    };
   return (
     <div>
-      <div className="nav-items nav-items-responsive">
+      <div className="nav-items">
         <h2 className="subnav-header">Bandage</h2>
         <nav className="sub-nav-links">
           <Link className="no-decoration-links" to="/home">
@@ -44,15 +49,26 @@ export default function SubNav() {
               <p className="subnav-login-link">Login / Register</p>
             </Link>
           </div>
+
           <FontAwesomeIcon className="subnav-search" icon={faMagnifyingGlass} />
+
           <div className="cart-favourite">
             <FontAwesomeIcon className="subnav-cart" icon={faCartShopping} />
             <p className="subnav-item-number">1</p>
           </div>
+
           <div className="cart-favourite">
             <FontAwesomeIcon className="subnav-heart" icon={faHeart} />
-            <p>1</p>
+            <p className="subnav-item-number">1</p>
           </div>
+        </div>
+        <div
+          className={`hamburger ${isActive ? "active" : ""}`}
+          onClick={handleToggle}
+        >
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
         </div>
       </div>
     </div>

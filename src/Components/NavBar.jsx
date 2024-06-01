@@ -13,14 +13,6 @@ import social4 from "../images/social4.svg";
 
 
 export default function NavBar() {
-  const [isActive, setIsActive] = useState(false);
-
-  const handleToggle = () => {
-    setIsActive(!isActive);
-  };
-
-
-
   return (
     <div>
       <div className=" nav-container">
@@ -54,23 +46,6 @@ export default function NavBar() {
                 </Link>
               </span>
             </p>
-          </div>
-
-          <div
-            className={`hamburger ${isActive ? "active" : ""}`}
-            onClick={handleToggle}
-          >
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <div className={`nav-items ${isActive ? "active" : ""}`}>
-            <div className="nav-links">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Services</a>
-              <a href="#">Contact</a>
-            </div>
           </div>
         </nav>
       </div>

@@ -3,7 +3,7 @@ import React from "react";
 
 export default function CallToAction() {
   return (
-    <div>
+    <div className="wrapper-container">
       <div className="call-to-action">
         <div className="bg-text-box">
           <h5>Design Better Experience</h5>
