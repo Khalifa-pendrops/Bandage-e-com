@@ -53,7 +53,7 @@ export default function ShopProductsList() {
 
     return (
       <div>
-        <div>
+        <div className="App-hide">
           <div className="App">
             <h4>Featured Products</h4>
             <h1>BESTSELLER PRODUCTS</h1>

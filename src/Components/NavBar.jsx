@@ -15,7 +15,7 @@ import social4 from "../images/social4.svg";
 export default function NavBar() {
   return (
     <div>
-      <div className=" nav-container">
+      <div className="nav-container">
         <nav>
           <div className="nav-phone">
             <FontAwesomeIcon icon={faPhone} />

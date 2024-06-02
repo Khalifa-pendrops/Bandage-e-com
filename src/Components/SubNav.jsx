@@ -8,6 +8,7 @@ import {
   faCartShopping,
   faHeart,
 } from "@fortawesome/free-solid-svg-icons";
+import HamburgerMenu from "./HamburgerMenu";
 
 export default function SubNav() {
     const [isActive, setIsActive] = useState(false);
@@ -62,14 +63,7 @@ export default function SubNav() {
             <p className="subnav-item-number">1</p>
           </div>
         </div>
-        <div
-          className={`hamburger ${isActive ? "active" : ""}`}
-          onClick={handleToggle}
-        >
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
-        </div>
+        <HamburgerMenu />
       </div>
     </div>
   );

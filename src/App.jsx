@@ -59,7 +59,7 @@ function Products() {
 
   return (
     <>
-      <LandingPage />
+      {/* <LandingPage /> */}
       <ShopPage />
       <ShopCart />
     </>

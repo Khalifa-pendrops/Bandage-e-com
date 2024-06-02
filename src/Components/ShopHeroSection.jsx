@@ -14,10 +14,9 @@ export default function ShopHeroSection() {
     <div>
       <div className="shop-hero-section">
         {/* THIS IMAGE OF THIS LEFT PART OF THIS DIV WAS IMPORTED AS A GROUP, YOU MIGHT WANT TO SEPARATE THE IMAGE FROM THE CHEVRON LEFT AND RIGHT ARROWS AND THE IMAGES BELOW IT FOR JS FUNCTIONALITY!  */}
-        <img src={shopHeroLeft} alt="hero" />
+        <img className="shop-hero-image" src={shopHeroLeft} alt="hero" />
         <div className="shop-hero-right">
           <div className="shop-hero-right-top">
-            {" "}
             <p>Floating Phone</p>
             <div className="shop-review">
               <div className="stars">
