@@ -8,14 +8,20 @@ import Footer from "./Components/Footer";
 import CartNavigation from "./Components/CartNavigation";
 import MyShoppingCart from "./Components/MyShoppingCart";
 import ShopCartList from "./Components/ShopCartList";
+import SecondSubNavBar from "./Components/SecondSubNavBar";
+import SecondNavBar from "./Components/SecondNavBar";
 
 
 export default function ShopCart() {
-    return <div>
-        <NavBar />
-        <CartNavigation />
-        <MyShoppingCart />
-        <ShopCartList />
-        <Footer />
-  </div>;
+  return (
+    <div>
+      {/* <NavBar /> */}
+      <SecondNavBar />
+      <SecondSubNavBar />
+      <CartNavigation />
+      <MyShoppingCart />
+      <ShopCartList />
+      <Footer />
+    </div>
+  );
 }

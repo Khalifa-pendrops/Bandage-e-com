@@ -18,13 +18,13 @@ export default function MyShoppingCart() {
         <div className="shopping-cart-nav">
           <p className="item-details">Item Details</p>
           {/* <div className="shopping-cart-nav-right"> */}
-            <p className="item-quantity">Quantity</p>
-            <p className="item-price">Price</p>
+          <p className="item-quantity">Quantity</p>
+          <p className="item-price">Price</p>
           {/* </div> */}
         </div>
         <div className="cart-box">
-          <div className="cart-box-delete">
-            <div className="cart-row">
+          <div className="cart-row ">
+            <div className="cart-box-delete">
               <div className="row-left">
                 <img src={cartImage} alt="product in cart" />
                 <div className="row-left-side">
@@ -36,7 +36,7 @@ export default function MyShoppingCart() {
                       <img src={star1} alt="star" />
                       <img src={star1} alt="star" />
                       <img src={star1} alt="star" />
-                      <img src={star2} alt="star" />
+                      <img src={star1} alt="star" />
                     </div>
                     <p>28 Reviews</p>
                   </div>
@@ -152,7 +152,9 @@ export default function MyShoppingCart() {
 
         <div className="summary-head">
           <h5>Delivery Charges</h5>
-          <p className="order-mid-text">Add your delivery address to checkout to see delivery charges.</p>
+          <p className="order-mid-text">
+            Add your delivery address to checkout to see delivery charges.
+          </p>
         </div>
 
         <div className="summary-head">
@@ -164,10 +166,9 @@ export default function MyShoppingCart() {
 
         <div className="summary-head">
           <h5>Total</h5>
-         
-            <p className="total">
-              &#8358;<span>26,500</span>
-            
+
+          <p className="total">
+            &#8358;<span>26,500</span>
           </p>
         </div>
 
