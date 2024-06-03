@@ -56,7 +56,9 @@ export default function SubNav() {
           <FontAwesomeIcon className="subnav-search" icon={faMagnifyingGlass} />
 
           <div className="cart-favourite">
-            <FontAwesomeIcon className="subnav-cart" icon={faCartShopping} />
+            <Link to="/shopCart">
+              <FontAwesomeIcon className="subnav-cart" icon={faCartShopping} />
+            </Link>
             <p className="subnav-item-number">1</p>
           </div>
 

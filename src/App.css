@@ -133,6 +133,10 @@ body {
   color: rgba(37, 43, 66, 1);
 }
 
+.subnav-cart{
+  color: rgba(37, 43, 66, 1);
+}
+
 .sub-nav-links {
   display: flex;
   gap: 1rem;
@@ -767,6 +771,11 @@ p {
   display: none;
 }
 
+.linked-cart-nav{
+  color: rgba(37, 43, 66, 1);
+  text-decoration: none;
+}
+
 
 /* SHOP HERO SECTION STARTS!!! */
 .shop-hero-section {
@@ -1327,6 +1336,10 @@ width: 10px;
     padding: 1rem 1.4rem;
   }
 
+    .subnav-header{
+      margin-left: 0rem;
+    }
+
   .sm-header-subnav-right{
     display: flex;
     gap: 1.5rem;
@@ -1346,6 +1359,10 @@ width: 10px;
     justify-content: space-between;
     align-items: center;
     padding: 0;
+  }
+
+  .linked-cart-small{
+    color: rgba(37, 43, 66, 1);
   }
 
   .wider-width2 {
@@ -1641,6 +1658,10 @@ width: 10px;
     display: flex;
     align-items: center;
     gap: .4rem;
+  }
+
+  .linked-small-shopcart{
+    color: rgba(35, 166, 240, 1);
   }
 
   .shop-hero-image, .shop-hero-section{

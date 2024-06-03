@@ -63,10 +63,12 @@ export default function SecondSubNavBar() {
         />
 
         <div className="second-cart-favourite">
-          <FontAwesomeIcon
-            className="second-subnav-cart"
-            icon={faCartShopping}
-          />
+          <Link className="linked-small-shopcart" to="/shopCart">
+            <FontAwesomeIcon
+              className="second-subnav-cart"
+              icon={faCartShopping}
+            />
+          </Link>
           <p className="second-subnav-item-number">1</p>
         </div>
 

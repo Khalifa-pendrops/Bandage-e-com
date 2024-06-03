@@ -8,12 +8,16 @@ export default function CartNavigation() {
     <div>
       <div>
         <div className="shop-navigation">
-          <h4>Home</h4>
+          <Link className="linked-cart-nav" to="/">
+            <h4>Home</h4>
+          </Link>
           <FontAwesomeIcon
             className="shop-chevron-right"
             icon={faChevronRight}
           />
-          <h4>Shop</h4>
+          <Link className="linked-cart-nav" to="/shopPage">
+            <h4>Shop</h4>
+          </Link>
           <h4>
             <span>Shopping Cart</span>
           </h4>

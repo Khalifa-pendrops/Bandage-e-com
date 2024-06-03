@@ -19,7 +19,9 @@ export default function SmallScreenNavMenu() {
         <h2 className="subnav-header">Bandage</h2>
         <div className="sm-header-subnav-right">
           <FontAwesomeIcon className="subnav-search" icon={faMagnifyingGlass} />
-          <FontAwesomeIcon className="subnav-cart" icon={faCartShopping} />
+          <Link className="linked-cart-small" to="/shopCart">
+            <FontAwesomeIcon className="subnav-cart" icon={faCartShopping} />
+          </Link>
           <HamburgerMenu />
         </div>
       </div>
