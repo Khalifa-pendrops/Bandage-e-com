@@ -54,15 +54,21 @@ export default function LandingProductList() {
     return (
       <div>
         <div className="App">
-          <h4>Featured Products</h4>
-          <h1>BESTSELLER PRODUCTS</h1>
-          <p>Problems trying to resolve the conflict between</p>
+          <div className="App-header">
+            <h4>Featured Products</h4>
+            <h1>BESTSELLER PRODUCTS</h1>
+            <p>Problems trying to resolve the conflict between</p>
+          </div>
           <div className="products">
             {products?.products.map((product) => (
               <div key={product.id} className="product">
                 <img src={product.thumbnail} alt={product.title} />
                 <h2>{product.title}</h2>
                 <p>{product.description}</p>
+                <div className="prod-price-rate-box">
+                  <p className="prod-price">Price: ${product.price}</p>
+                  <p className="prod-rating">Rating: {product.rating}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -70,7 +76,6 @@ export default function LandingProductList() {
           <button className="product-btn" type="button">
             LOAD MORE PRODUCTS
           </button>
-          {/* Add more UI elements to display other data */}
         </div>
       </div>
     );

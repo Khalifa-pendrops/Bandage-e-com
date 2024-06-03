@@ -54,7 +54,7 @@ export default function ShopCartList() {
 
     return (
       <div>
-        <div>
+        <div className="small-cart-list">
           <div className="App">
             <h4>Featured Products</h4>
             <h1>BESTSELLER PRODUCTS</h1>
@@ -65,6 +65,12 @@ export default function ShopCartList() {
                   <img src={product.thumbnail} alt={product.title} />
                   <h2>{product.title}</h2>
                   <p>{product.description}</p>
+                  <div>
+                    <div className="prod-price-rate-box">
+                      <p className="prod-price">Price: ${product.price}</p>
+                      <p className="prod-rating">Rating: {product.rating}</p>
+                    </div>
+                  </div>
                 </div>
               ))}
             </div>

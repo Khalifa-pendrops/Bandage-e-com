@@ -13,6 +13,8 @@ import Testimonial from "./Components/Testimonial";
 import CallToAction from "./Components/CallToAction";
 import Footer from "./Components/Footer";
 import LandingProductList from './Components/LandingProductList';
+import SmallScreenNavItems from './Components/SmallScreenNavItems';
+import SmallScreenNavMenu from './Components/SmallScreenNavMenu';
 
 
 
@@ -21,6 +23,8 @@ export default function LandingPage() {
     <div>
       <NavBar />
       <SubNav />
+      <SmallScreenNavMenu />
+      <SmallScreenNavItems />
       <HeroSection />
       <LandingProductList />
       <ProductServices />

@@ -19,12 +19,14 @@ export default function SubNav() {
   return (
     <div>
       <div className="nav-items">
-        <h2 className="subnav-header">Bandage</h2>
+        <Link className="linked-logo" to="/">
+          <h2 className="subnav-header">Bandage</h2>
+        </Link>
         <nav className="sub-nav-links">
-          <Link className="no-decoration-links" to="/home">
+          <Link className="no-decoration-links" to="/">
             <li>Home</li>
           </Link>
-          <Link className="no-decoration-links" to="/shop">
+          <Link className="no-decoration-links" to="/shopPage">
             <li className="nav-arrow">
               Shop
               <FontAwesomeIcon icon={faAngleDown} />
@@ -63,7 +65,6 @@ export default function SubNav() {
             <p className="subnav-item-number">1</p>
           </div>
         </div>
-        <HamburgerMenu />
       </div>
     </div>
   );

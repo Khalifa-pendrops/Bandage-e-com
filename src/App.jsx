@@ -59,9 +59,14 @@ function Products() {
 
   return (
     <>
-      {/* <LandingPage /> */}
-      {/* <ShopPage /> */}
-      <ShopCart />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/shopPage" element={<ShopPage />} />
+        <Route path="/shopCart" element={<ShopCart />} />
+        {/* <LandingPage /> */}
+        {/* <ShopPage /> */}
+        {/* <ShopCart /> */}
+      </Routes>
     </>
   );
 }

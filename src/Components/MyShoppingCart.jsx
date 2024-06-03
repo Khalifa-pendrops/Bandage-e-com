@@ -23,8 +23,8 @@ export default function MyShoppingCart() {
           {/* </div> */}
         </div>
         <div className="cart-box">
-          <div className="cart-row ">
-            <div className="cart-box-delete">
+          <div className="cart-box-delete">
+            <div className="cart-row">
               <div className="row-left">
                 <img src={cartImage} alt="product in cart" />
                 <div className="row-left-side">
@@ -144,6 +144,134 @@ export default function MyShoppingCart() {
           </div>
         </div>
       </div>
+
+      <div className="small-screen-shopping-cart">
+        <h2 className="small-screen-cart-header-text">Shopping Cart</h2>
+        <div className="small-screen-cart-box">
+          <div className="small-screen-cart-row ">
+            <div className="small-screen-cart-box-delete">
+              <div className="small-screen-row-left">
+                <img src={cartImage} alt="product in cart" />
+                <div className="small-screen-row-left-side">
+                  <h6>Graphic Design</h6>
+                  <div className="small-screen-price">
+                    <h4>
+                      &#8358;<span>4,000</span>
+                    </h4>
+                    <p>
+                      &#8358;<span>2,000 x 2 item</span>
+                    </p>
+                  </div>
+                  <p className="small-screen-cart-stock">In Stock</p>
+                </div>
+                <div className="small-screen-shop-review">
+                  <div className="small-screen-cart-stars">
+                    <img src={star1} alt="star" />
+                    <img src={star1} alt="star" />
+                    <img src={star1} alt="star" />
+                    <img src={star1} alt="star" />
+                    <img src={star1} alt="star" />
+                  </div>
+                  <p className="small-cart-review">28 Reviews</p>
+                </div>
+              </div>
+            </div>
+            <div className="sm-row-last">
+              <div className="small-screen-delete-box">
+                <FontAwesomeIcon className="sm-delete-icon" icon={faTrash} />
+                <p>REMOVE</p>
+              </div>
+              <div className="small-screen-row-middle">
+                <div className="small-screen-minus">-</div>
+                <div className="small-screen-one">1</div>
+                <div className="small-screen-plus">+</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="small-screen-cart-row ">
+            <div className="small-screen-cart-box-delete">
+              <div className="small-screen-row-left">
+                <img src={cartImage} alt="product in cart" />
+                <div className="small-screen-row-left-side">
+                  <h6>Graphic Design</h6>
+                  <div className="small-screen-price">
+                    <h4>
+                      &#8358;<span>4,000</span>
+                    </h4>
+                    <p>
+                      &#8358;<span>2,000 x 2 item</span>
+                    </p>
+                  </div>
+                  <p className="small-screen-cart-stock">In Stock</p>
+                </div>
+                <div className="small-screen-shop-review">
+                  <div className="small-screen-cart-stars">
+                    <img src={star1} alt="star" />
+                    <img src={star1} alt="star" />
+                    <img src={star1} alt="star" />
+                    <img src={star1} alt="star" />
+                    <img src={star1} alt="star" />
+                  </div>
+                  <p className="small-cart-review">28 Reviews</p>
+                </div>
+              </div>
+            </div>
+            <div className="sm-row-last">
+              <div className="small-screen-delete-box">
+                <FontAwesomeIcon className="sm-delete-icon" icon={faTrash} />
+                <p>REMOVE</p>
+              </div>
+              <div className="small-screen-row-middle">
+                <div className="small-screen-minus">-</div>
+                <div className="small-screen-one">1</div>
+                <div className="small-screen-plus">+</div>
+              </div>
+            </div>
+          </div>
+          <div className="small-screen-cart-row ">
+            <div className="small-screen-cart-box-delete">
+              <div className="small-screen-row-left">
+                <img src={cartImage} alt="product in cart" />
+                <div className="small-screen-row-left-side">
+                  <h6>Graphic Design</h6>
+                  <div className="small-screen-price">
+                    <h4>
+                      &#8358;<span>4,000</span>
+                    </h4>
+                    <p>
+                      &#8358;<span>2,000 x 2 item</span>
+                    </p>
+                  </div>
+                  <p className="small-screen-cart-stock">In Stock</p>
+                </div>
+                <div className="small-screen-shop-review">
+                  <div className="small-screen-cart-stars">
+                    <img src={star1} alt="star" />
+                    <img src={star1} alt="star" />
+                    <img src={star1} alt="star" />
+                    <img src={star1} alt="star" />
+                    <img src={star1} alt="star" />
+                  </div>
+                  <p className="small-cart-review">28 Reviews</p>
+                </div>
+              </div>
+            </div>
+            <div className="sm-row-last">
+              <div className="small-screen-delete-box">
+                <FontAwesomeIcon className="sm-delete-icon" icon={faTrash} />
+                <p>REMOVE</p>
+              </div>
+              <div className="small-screen-row-middle">
+                <div className="small-screen-minus">-</div>
+                <div className="small-screen-one">1</div>
+                <div className="small-screen-plus">+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="order-summary">
         <div className="summary-head">
           <h2>Order Summary</h2>

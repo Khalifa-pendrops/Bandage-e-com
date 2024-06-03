@@ -112,7 +112,7 @@ export default function Footer() {
         </div>
       </div>
       <p className="footer-rights">
-        Made With Love By Chikezie Ilodigwe All Rights Reserved
+        Made With Love By Finland All Rights Reserved
       </p>
     </div>
   );

@@ -16,7 +16,7 @@ export default function ShopCart() {
   return (
     <div>
       {/* <NavBar /> */}
-      <SecondNavBar />
+      {/* <SecondNavBar /> */}
       <SecondSubNavBar />
       <CartNavigation />
       <MyShoppingCart />

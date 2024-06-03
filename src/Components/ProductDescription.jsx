@@ -15,7 +15,7 @@ export default function ProductDescription() {
           <p>Additional Information</p>
         </Link>
         <Link className="d-link" to="/review">
-          <p>Review (0)</p>
+          <p>Reviews <span>(0)</span></p>
         </Link>
       </div>
 
