@@ -100,9 +100,9 @@ export default function Footer() {
           <h6>Get In Touch</h6>
           <div className="footer-links">
             <div className="footer-btn">
-              <button className="f-btn-1" type="submit">
-                Your Email
-              </button>
+              <input className="f-btn-1" placeholder="Email">
+                
+              </input>
               <button className="f-btn-2" type="submit">
                 Subscribe
               </button>

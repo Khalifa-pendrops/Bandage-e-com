@@ -134,7 +134,7 @@ body {
 }
 
 .subnav-cart{
-  color: rgba(37, 43, 66, 1);
+  color: rgba(35, 166, 240, 1) !important;
 }
 
 .sub-nav-links {
@@ -168,17 +168,15 @@ body {
   color: rgba(35, 166, 240, 1);
 }
 
-.right-nav-items:hover,
-.right-nav-items .subnav-login-link:hover {
-  color: #213547;
-}
-
 .subnav-login-link {
   color: rgba(35, 166, 240, 1);
 }
 
 .subnav-login .no-decoration-links {
   text-decoration: none;
+}
+.subnav-item-number{
+  color: rgba(35, 166, 240, 1);
 }
 
 /* SECOND SUB NAVBAR STARTS HERE!!! */
@@ -200,12 +198,24 @@ body {
   width: 25px;
   height: 15px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: space-between;
   gap: .2rem;
   cursor: pointer;
   z-index: 2;
-  /* border: 1px solid; */
+  transform: scale(-1);
+}
+
+.hamburger-link{
+  text-decoration: none;
+}
+
+.hamburger-link li{
+  white-space: nowrap;
+}
+
+.menu-icon div{
+transition: 0.4s;
 }
 
 .menu-icon .bar2 {
@@ -239,8 +249,7 @@ body {
   display: none;
   position: absolute;
   top: 40px;
-  left: -150px;
-
+  left: -100px;
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   z-index: 1;
@@ -711,6 +720,10 @@ p {
   border: none;
   padding: 0 .4rem;
   cursor: pointer;
+}
+
+.footer-btn .f-btn-1:active{
+  border: none;
 }
 
 .footer-btn .f-btn-1:hover {
@@ -1255,6 +1268,7 @@ width: fit-content;
   align-items: center;
   gap: .4rem;
   width: fit-content;
+  margin-right: .8rem;
 }
 
 .small-screen-minus{
@@ -1365,10 +1379,10 @@ width: 10px;
     color: rgba(37, 43, 66, 1);
   }
 
-  .wider-width2 {
+  /* .wider-width2 {
     width: 454px;
     margin-left: 0rem;
-  }
+  } */
 
 
   .landing-hero-row1 {
@@ -1387,7 +1401,7 @@ width: 10px;
   .wider-width2,
   .wider-width1,
   .product {
-    width: 380px;
+    width: 360px;
   }
 
   .App {
@@ -1404,8 +1418,12 @@ width: 10px;
     margin-left: -3rem;
   }
 
+  .App-header h1{
+    width: 16rem;
+  }
+
     .App-header p{
-      width: 20rem;
+      width: 16rem;
     }
 
   .App h4 {
@@ -1492,11 +1510,11 @@ width: 10px;
   }
 
   .testimonial-right {
-    width: 380px;
+    width: 366px;
   }
 
   .right-row img {
-    width: 124px;
+    width: 120px;
   }
 
   .wrapper-container {
@@ -1723,3 +1741,7 @@ font-size: .6rem;
   display: flex;
 }
 }
+
+/* .subnav-cart-link .subnav-cart {
+  color: rgba(37, 43, 66, 1) !important;
+} */
