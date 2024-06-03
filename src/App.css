@@ -1324,7 +1324,7 @@ width: 10px;
     margin-left: .2rem;
     margin-top: 1rem;
     margin-bottom: 0;
-    padding: 0 .8rem;
+    padding: 1rem 1.4rem;
   }
 
   .sm-header-subnav-right{
@@ -1589,7 +1589,7 @@ width: 10px;
     align-items: center;
     justify-content: space-between;
     width: 380px;
-    padding: .6rem .8rem;
+    padding: 1rem 1.4rem;
   }
 
   .second-sub-nav-links {
