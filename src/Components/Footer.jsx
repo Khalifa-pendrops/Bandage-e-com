@@ -7,7 +7,7 @@ import twitter from "../images/twitter.svg";
 export default function Footer() {
   return (
     <div className="footer-container">
-      <div className="footer-herder">
+      <div className="footer-header">
         <h2>Bandage</h2>
         <div className="footer-socials">
           <Link to="/www.facebook.com/">

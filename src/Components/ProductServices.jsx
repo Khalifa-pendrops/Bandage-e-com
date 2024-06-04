@@ -11,8 +11,8 @@ export default function ProductServices() {
   return (
     <div className="product-service">
       <div className="product-service-header">
-        <h3>Featured Products</h3>
-        <h2>THE BEST SERVICES</h2>
+        <h3 className='product-service-h3'>Featured Products</h3>
+        <h2 className='product-service-h2'>THE BEST SERVICES</h2>
         <p>Problems trying to resolve the conflict between</p>
       </div>
       <div className="product-service-row">

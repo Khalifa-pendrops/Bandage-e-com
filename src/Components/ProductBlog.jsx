@@ -14,7 +14,7 @@ export default function ProductBlog() {
   return (
     <div>
       <div className="blog-container">
-        <div className="product-service-header">
+        <div className="product-service-header2">
           <h3 className="header-blue">Practice Advice</h3>
           <h2>Featured Posts</h2>
         </div>

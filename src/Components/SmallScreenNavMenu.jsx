@@ -20,7 +20,7 @@ export default function SmallScreenNavMenu() {
         <div className="sm-header-subnav-right">
           <FontAwesomeIcon className="subnav-search" icon={faMagnifyingGlass} />
           <Link className="linked-cart-small" to="/shopCart">
-            <FontAwesomeIcon className="subnav-cart" icon={faCartShopping} />
+            <FontAwesomeIcon className="subnav-cart-link" icon={faCartShopping} />
           </Link>
           <HamburgerMenu />
         </div>
